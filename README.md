@@ -6,3 +6,5 @@ Based on the Java implementation by Matthew Francis: https://github.com/MateuszB
 The compression algorithm doesn't generate randomized blocks, which is already a deprecated option and may not be decoded by modern bzip2 libraries. Other popular .net compression libraries do generate randomized blocks.
 
 Nuget package: [nuget.org/packages/bzip2.net](https://www.nuget.org/packages/bzip2.net/), or simply look for bzip2.net in Visual Studio's nuget package manager
+
+_DISCLAIMER_: Unfortunately, this library has a well-known bug coming from the original implementation, as reported [here](https://github.com/MateuszBartosiewicz/bzip2/issues/1)
